@@ -1,0 +1,43 @@
+html{
+    --text-color: green;
+}
+
+h1{
+    color: red;
+    color: rgb(244, 240, 0);
+    color: #abccde;
+    color: #acd;
+    background-color: khaki;
+    
+}
+
+section:first-of-type{
+    background-image: linear-gradient(45deg, green 40%, blue 60%);
+    background-image: linear-gradient(90deg, violet 35%,  crimson 35%, crimson 80%, fuchsia 80%);
+    background-image: linear-gradient(to buttom left, purple 50%, khaki 50%);
+}
+
+section:nth-of-type(2){
+    background-image: radial-gradient(gray, pink);
+    background-image: radial-gradient(gray 30%, pink 30%);
+    background-image: radial-gradient(circle, gray 10%, pink 10%, pink 25%, var(--text-color) 25%);
+
+}
+
+section:last-of-type(3){
+    background-image: conic-gradient(
+        fuchsia 15%,
+        #09cc66 15%,
+        
+
+
+    )
+
+
+}
+    
+
+
+
+
+

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+
+}
+
+section{
+    width: 20%;
+    height: 300px;
+    margin: 25px auto;
+    border: 10px solid #1f2630;
+    background-color: #1f2630;
+    color: white;
+    border-radius: 40px;
+    text-align: 60px;
+    background-position: 56%;
+
+}
+
+h1{
+    margin-top: 40px;
+
+}
+
+section>input{
+    background-color: #fc7613;
+    width: 350px;
+    border-radius: 50px;
+    margin-top: 50px;
+
+}
+
+section{
+    background-image: url(./Orange_star..png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 10px 10px;
+
+}
+
+p+P{
+    letter-spacing: 15px;
+    position: relative; top: 10px; left: 10px; margin-left: 10px; margin-right: 10px;
+
+}
+
+section:nth-last-of-type(2){
+    width: 30%;
+    height: 300px;
+    margin: 25px auto;
+    border: 20px solid #1f2630;
+    background-color: #1f2630;
+    color: white;
+    border-radius: 20px;
+
+}
+
+section:nth-last-of-type(2) h1{
+    margin-top: 60px;
+    background-position: center;
+
+}
+
+section:nth-of-type(2) p {
+    margin-top: 10px;
+
+}
+
+section:nth-of-type(2){
+    background-image: url(./usmanian.enc);
+    background-repeat: no-repeat;
+    background-position: 200px 30px;
+    background-size: 60px;
+
+}
+
+section:nth-of-type(2) input{
+    border-radius: 10px;
+    width: 150px;
+}
